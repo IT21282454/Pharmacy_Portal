@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="../css/sign-login.css">
+
+        <title> Sign Up</title>
+        <script src="../js/signup.js"></script>
+
+    
+    </head>
+    <body>
+        <!--signup start -->
+        <div id="error"></div>
+        
+        <div class="bottom">
+        <div class="Signuparea">
+            <h1>Sign Up</h1>
+            <form onsubmit="return validate()" action="" method="post">
+                <label>Name</label>
+                <input id="name" type="text" placeholder="Enter Name" name="name">
+                <label>Email</label>
+                <input id="email" type="email" placeholder="Enter Email" name="email">
+                <label>Address</label>
+                <input id="address"type="text" placeholder="Enter Address" name="address">
+                <label>Password </label>
+                <input id="pass"type="password" placeholder="Enter a Password" name="password">
+                <label>Confirm Password </label>
+                <input id="pass2"type="password" placeholder="Confirm your Password" name="confirmpassword"><br><br>
+                <select name="user_type">
+                    <option value="user">user</option>
+                    <option value="admin">admin</option>
+                </select>
+                <br><br>
+                <input type="submit" name="submit" class="btn"value="Submit">
+
+            </form>
+            <p class="link">If you have an account <a href="login.html">Login</a></p>
+
+        </div>
+        </div>
+        <!--sign up end-->
+        
+        
+
+    </body>
+</html>
